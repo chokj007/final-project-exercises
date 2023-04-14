@@ -76,7 +76,7 @@ function pageClicked(){
     holder.append (element)
     // Appending the 'element' variable (divs) to the larger Div
 
-    if (probVar >= 0.5) { 
+    if (probVar <= 0.1) { 
         element.style.backgroundColor = 'rgb(255,0,0)'
     } else{
         element.style.backgroundColor = `rgb(${redVar}, ${greenVar}, ${blueVar})`

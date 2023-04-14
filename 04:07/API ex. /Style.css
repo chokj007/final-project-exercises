@@ -1,0 +1,37 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  #container {
+    max-width: 600px;
+    margin: 40% 25%;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  #temperature {
+    font-size: 6em;
+    font-weight: bold;
+    margin: 0;
+  }
+  #feelsLike {
+    font-size: 2em;
+    margin: 0.5em;
+  }
+  #location {
+    font-size: 2em;
+    margin: 0;
+  }
+  .cold {
+    color: #2196F3;
+  }
+  .cool {
+    color: #4CAF50;
+  }
+  .warm {
+    color: #FFC107;
+  }
+  .hot {
+    color: #FF5722;
+  }

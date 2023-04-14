@@ -11,7 +11,6 @@ const lat = 40.7209;
 const lon = -74.0007;
 
 // You need to use the fetch function to make an API call
-// You can use this URL to get the current weather data for any location: https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
 const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=imperial&appid=${apiKey}`;
 
 // You need to use the .then() method to handle the response from the API
@@ -21,8 +20,8 @@ fetch(url)
   .then(data => {
     // You can access the weather data from the data object
     // You can use this website to see what data is available: https://openweathermap.org/current#current_JSON
-    const temp = data.main.temp; // The temperature in Kelvin
-    const feelsLike = data.main.feels_like; // The temperature that it feels like in Kelvin
+    const temp = data.main.temp; // The temperature in F
+    const feelsLike = data.main.feels_like; // The temperature that it feels like in F
     document.getElementById('temperature').textContent = temp + '°F';
     document.getElementById('feelsLike').textContent = feelsLike;
     document.getElementById('location').textContent = city;

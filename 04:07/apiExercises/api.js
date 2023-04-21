@@ -55,8 +55,4 @@ fetch(url)
 
   // https://api.openweathermap.org/data/2.5/weather?lat=40.7209&lon=-74.0007&units=imperial&appid=dc7a4dcf8b9dbd828cf7f934872e3735
 
-
- 
-
-  
-     
+// Could you change the "R", "G" or  "B" values with the temperature itself- check folder for screenshots

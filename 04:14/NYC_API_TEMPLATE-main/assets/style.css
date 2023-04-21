@@ -1,0 +1,19 @@
+
+section{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+} 
+
+div{ 
+	margin: 20px;
+	border: 2px solid lightblue; 
+	padding: 20px;
+	transition: transform .2s; 
+}
+
+
+.div:hover {
+  transform: scale(1.5);
+}

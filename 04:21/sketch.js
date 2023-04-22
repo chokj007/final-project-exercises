@@ -7,15 +7,15 @@ function setup() {
 }
 
 function draw() {
-  background(xLoc/100*255, xLoc/200*255, xLoc/600*255, 10);
   noStroke()
-  fill(xLoc,0,0)
+  fill(xLoc/windowHeight*255, xLoc/1000*255, xLoc/windowWidth*255, 100)
+  
   ellipse(xLoc, 100, 100,)
-  xLoc = xLoc + 1
+  xLoc = xLoc + 10
   
   ellipse(mouseX, mouseY, 100)
   
-  if(xLoc >= 399) {
+  if(xLoc >= windowWidth) {
     xLoc = 50   // loop starts from the beginning
   }
   
